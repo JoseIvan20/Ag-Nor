@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Ag Nor Consultores</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navegacion">
+        <a href="index.html" class="navegacion__logo"
+          ><img src="assets/img/logoagnor.webp" alt="Logo Agnor"
+        /></a>
+        <ul class="navegacion__items">
+          <li><a class="navegacion__item" href="#">Inicio</a></li>
+          <li class="navegacion__btns">
+            <a class="navegacion__btn boton" href="#">Iniciar</a>
+            <a class="navegacion__btn boton" href="#">Asesores</a>
+          </li>
+        </ul>
+        <i class="navegacion__item bx bx-menu"></i>
+      </nav>
+      <div class="header__contenido contenedor">
+        <h1 class="header__titulo">Ag Nor</h1>
+        <p class="header__slogan">“En vienes raices somos la llave”</p>
+        <div class="buscador">
+          <h2 class="buscador__titulo">Busca tu nueva propiedad</h2>
+          <div class="buscador__contenido">
+            <div class="buscador__secciones">
+              <a class="buscador__seccion" href="#">Remates</a>
+              <a class="buscador__seccion" href="#">Propiedades</a>
+              <a class="buscador__seccion" href="#">Preventas</a>
+              <a class="buscador__seccion" href="#">Corretaje</a>
+            </div>
+            <form class="buscador__lugares">
+              <select id="lugares">
+                <option selected disabled>Localizacion</option>
+                <option value="CDMX">CDMX</option>
+                <option value="Cuahuila">Cuahuila</option>
+                <option value="CDMX">CDMX</option>
+                <option value="CDMX">CDMX</option>
+              </select>
+              <select id="tipo">
+                <option selected disabled>Tipo</option>
+                <option value="departamento">Departamento</option>
+                <option value="casa">Casa</option>
+                <option value="casa">Casa</option>
+                <option value="casa">Casa</option>
+              </select>
+              <select id="recamaras">
+                <option selected disabled>Recamaras</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">+4</option>
+              </select>
+              <input type="text" name="precio" value="$ " />
+              <button type="reset"><i class="bx bx-search-alt-2"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <article class="guias">
+      <div class="guias__contenido contenedor">
+        <div class="guias__izq">
+          <div class="guias__sticky">
+            <div class="guias__propiedad">
+              <div class="guias__txt">
+                <h3 class="guias__subtitulo">Publicar mi propiedad</h3>
+                <p class="guias__descPropiedad">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent adipiscing proin pellentesque nisl sed pharetra, non
+                  maecenas ut. Curabitur augue neque in maecenas vehicula amet.
+                  Congue sociis tempus sed pellentesque. Facilisis a ut pharetra
+                  convallis posuere ullamcorper vestibulum ultrices.
+                </p>
+                <a class="guias__publicar btn" href="#">Publicar</a>
+              </div>
+              <div class="guias__propiedadImg">
+                <img src="assets/img/propiedad.jpg" alt="Imagen propiedad" />
+              </div>
+            </div>
+            <div class="guias__propiedad">
+              <!-- <iframe
+                src="assets/video/videopresentacuin.mp4"
+                width="320"
+                height="240"
+                allow="accelerometer; autoplay;clipboard-write;encrypted-media;picture-in-picture"
+                allowfullscreen       
+                loop class="video__frame"
+              ></iframe> -->
+              <video src="assets/video/videopresentacuin.mp4" class="video__frame" width="780px" height="700px" autoplay loop></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="guias__der">
+          <h3 class="guias__subtitulo">¿Que necesito saber?</h3>
+          <div class="guias__boxsContenido">
+            <div class="guias__box">
+              <img src="assets/img/comprar.jpg" alt="imagen propiedad" />
+              <div class="guias__boxTxt">
+                <p class="guias__boxDesc">Antes de comprar una propiedad</p>
+                <a href="#" class="btn">Ingresar a la guía</a>
+              </div>
+            </div>
+            <div class="guias__box">
+              <img src="assets/img/comprar.jpg" alt="imagen propiedad" />
+              <div class="guias__boxTxt">
+                <p class="guias__boxDesc">Sobre las preventas</p>
+                <a href="#" class="btn">Ingresar a la guía</a>
+              </div>
+            </div>
+            <div class="guias__box">
+              <img src="assets/img/comprar.jpg" alt="imagen propiedad" />
+              <div class="guias__boxTxt">
+                <p class="guias__boxDesc">Sobre el corretaje</p>
+                <a href="#" class="btn">Ingresar a la guía</a>
+              </div>
+            </div>
+            <div class="guias__box">
+              <img src="assets/img/comprar.jpg" alt="imagen propiedad" />
+              <div class="guias__boxTxt">
+                <p class="guias__boxDesc">Sobre los remates</p>
+                <a href="#" class="btn">Ingresar a la guía</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <script src="assets/js/menu.js"></script>
+  </body>
+</html>
